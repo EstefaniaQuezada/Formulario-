@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Validación</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+        <form id="form" action="/">
+            <h1>Create Account</h1>
+            <div class="input-control">
+                <label for="username"> Nombre</label>
+                <input id="username" name="username" type="text">
+                <div class="error"></div>
+                <i class="error_icon"><img src="images/error-icon.svg" alt="error-icon"> </i>
+                <i class="correct_icon"><img src="images/success-icon.svg" alt="correcto"> </i>
+            </div>
+
+            <div class="input-control">
+                <label for="email">Email</label>
+                <input type="email" id="email"name="email">
+                <div class="error"></div>
+                <i class="error_icon"><img src="images/error-icon.svg" alt="error-icon"> </i>
+                <i class="correct_icon"><img src="images/success-icon.svg" alt="correcto"> </i>
+            </div>
+
+            <div class="input-control">
+                <label for="password"> Clave</label>
+                <input id="password" name="password" type="password">
+                <div class="error"></div>
+                <i class="error_icon"><img src="images/error-icon.svg" alt="error-icon"> </i>
+                <i class="correct_icon"><img src="images/success-icon.svg" alt="correcto"> </i>
+            </div>
+
+            <div class="input-control">
+                <label for="password2"> Confirme su clave</label>
+                <input id="password2" name="password2" type="password">
+                <div class="error"></div>
+                <i class="error_icon"><img src="images/error-icon.svg" alt="error-icon"> </i>
+                <i class="correct_icon"><img src="images/success-icon.svg" alt="correcto"> </i>
+            </div>
+            <button type="submit">ENVIAR</button>
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
